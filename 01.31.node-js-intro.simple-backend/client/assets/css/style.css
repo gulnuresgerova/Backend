@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+  }
+  table tr td img {
+    width: 10rem;
+  }
+  .products-cards {
+    margin-top: 50px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .products-cards img {
+    aspect-ratio: 3/2;
+    /* object-fit: cover; */
+    width: 100%;
+  }
+  .logo{
+    color: white;
+  }
+  header {
+    background-color: rgb(226, 55, 13);
+  }
+  header .header {
+    align-items: center;
+  }
+  header nav ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+  }
